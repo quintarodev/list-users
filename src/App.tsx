@@ -1,6 +1,6 @@
 import Button from "./components/Button"
 import ListUsers from "./components/ListUsers"
-import { SORTING_BY, SortType, useUsers } from "./hooks/useUsers"
+import { SortType, useUsers } from "./hooks/useUsers"
 
 function App() {
   const { usersSorted, deleteUser, activeBg, resetUsers, setBg, setSort, sort } = useUsers()

@@ -1,6 +1,6 @@
 import { FC } from "react"
-import { UserType } from "../types"
-import { SORTING_BY, SortType } from "../hooks/useUsers"
+import { SortType } from "../hooks/useUsers"
+import { UserType } from "../types.d"
 interface Props {
   users: UserType[]
   activeBg: boolean
